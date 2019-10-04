@@ -189,13 +189,13 @@ namespace AntiDupl.NET
             s.ResultRowSetter_RenameSecondToFirstIcon_ToolTip_Text = "Replace first picture by the second picture";
 
             s.ResultRowSetter_Turn_0_Icon_ToolTip_Text = "Original";
-            s.ResultRowSetter_Turn_90_Icon_ToolTip_Text = "Rotated on 90°";
-            s.ResultRowSetter_Turn_180_Icon_ToolTip_Text = "Rotated on 180°";
-            s.ResultRowSetter_Turn_270_Icon_ToolTip_Text = "Rotated on 270°";
+            s.ResultRowSetter_Turn_90_Icon_ToolTip_Text = "Rotated on 90Â°";
+            s.ResultRowSetter_Turn_180_Icon_ToolTip_Text = "Rotated on 180Â°";
+            s.ResultRowSetter_Turn_270_Icon_ToolTip_Text = "Rotated on 270Â°";
             s.ResultRowSetter_MirrorTurn_0_Icon_ToolTip_Text = "Horizontally flipped";
-            s.ResultRowSetter_MirrorTurn_90_Icon_ToolTip_Text = "Horizontally flipped and rotated on 90°";
-            s.ResultRowSetter_MirrorTurn_180_Icon_ToolTip_Text = "Horizontally flipped and rotated on 180°";
-            s.ResultRowSetter_MirrorTurn_270_Icon_ToolTip_Text = "Horizontally flipped and rotated on 270°";
+            s.ResultRowSetter_MirrorTurn_90_Icon_ToolTip_Text = "Horizontally flipped and rotated on 90Â°";
+            s.ResultRowSetter_MirrorTurn_180_Icon_ToolTip_Text = "Horizontally flipped and rotated on 180Â°";
+            s.ResultRowSetter_MirrorTurn_270_Icon_ToolTip_Text = "Horizontally flipped and rotated on 270Â°";
 
             s.ResultsListView_Type_Column_Text = "Type";
             s.ResultsListView_Group_Column_Text = "Group";
