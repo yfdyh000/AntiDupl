@@ -147,7 +147,7 @@ namespace AntiDupl.NET
         {
             public delegate void CurrentChangeHandler();
             /// <summary>
-            /// Событие вызываемое при смене языка
+            /// РЎРѕР±С‹С‚РёРµ РІС‹Р·С‹РІР°РµРјРѕРµ РїСЂРё СЃРјРµРЅРµ СЏР·С‹РєР°
             /// </summary>
             public static event CurrentChangeHandler OnCurrentChange;
 

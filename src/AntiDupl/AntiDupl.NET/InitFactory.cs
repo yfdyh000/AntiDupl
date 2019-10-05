@@ -30,7 +30,7 @@ using System.Drawing;
 namespace AntiDupl.NET
 {
     /// <summary>
-    /// Фабрика создает элементы GUI
+    /// Р¤Р°Р±СЂРёРєР° СЃРѕР·РґР°РµС‚ СЌР»РµРјРµРЅС‚С‹ GUI
     /// </summary>
     public static class InitFactory
     {

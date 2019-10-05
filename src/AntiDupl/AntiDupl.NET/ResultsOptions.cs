@@ -31,7 +31,7 @@ namespace AntiDupl.NET
 {
     /// <summary>
     /// Setting for table out (ListView).
-    /// Установки для таблицы вывода.
+    /// РЈСЃС‚Р°РЅРѕРІРєРё РґР»СЏ С‚Р°Р±Р»РёС†С‹ РІС‹РІРѕРґР°.
     /// </summary>
     public class ResultsOptions
     {
