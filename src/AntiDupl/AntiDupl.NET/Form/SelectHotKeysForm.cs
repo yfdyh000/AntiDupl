@@ -208,7 +208,7 @@ namespace AntiDupl.NET
             if (button == m_okButton)
             {
                 m_newHotKeyOptions.CopyTo(ref m_options.hotKeyOptions);
-                // для обновления подсказки в меню
+                // РґР»СЏ РѕР±РЅРѕРІР»РµРЅРёСЏ РїРѕРґСЃРєР°Р·РєРё РІ РјРµРЅСЋ
                 Resources.Strings.Update();
             }
             Close();
