@@ -2,7 +2,7 @@
 * Simd Library (http://ermig1979.github.io/Simd).
 *
 * Copyright (c) 2011-2019 Yermalayeu Ihar,
-*               2014-2019 Antonenka Mikhail,
+*               2014-2016 Antonenka Mikhail,
 *               2019-2019 Facundo Galan.
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -6198,33 +6198,6 @@ extern "C"
 
     /*! @ingroup synet
 
-        \fn void SimdSynetPoolingForwardAverage(const float * src, size_t srcC, size_t srcH, size_t srcW, size_t kernelY, size_t kernelX, size_t strideY, size_t strideX, size_t padY, size_t padX, float * dst, size_t dstH, size_t dstW, SimdBool excludePad, SimdTensorFormatType format);
-
-        \short This function is used for forward propagation of PoolingLayer (AveragePooling).
-
-        \note This function is used in <a href="http://github.com/ermig1979/Synet">Synet Framework</a>.
-
-        \param [in] src - a pointer to the input 32-bit float array. The size of the array must be equal to srcC*srcH*srcW.
-        \param [in] srcC - a number of input and output channels.
-        \param [in] srcH - an input height.
-        \param [in] srcW - an input width.
-        \param [in] kernelY - a height of the pooling kernel.
-        \param [in] kernelX - a width of the pooling kernel.
-        \param [in] strideY - a y-stride of the pooling.
-        \param [in] strideX - a x-stride of the pooling.
-        \param [in] padY - a pad to the top of the input image.
-        \param [in] padX - a pad to the left of the input image.
-        \param [out] dst - a pointer to the output 32-bit float array. The size of the array must be equal to srcC*dstH*dstW.
-        \param [in] dstH - an output height.
-        \param [in] dstW - an output width.
-        \param [in] excludePad - a flag of exclude pad from average value calculation.
-        \param [in] format - a format of (input/output) image tensor.
-    */
-    SIMD_API void SimdSynetPoolingForwardAverage(const float * src, size_t srcC, size_t srcH, size_t srcW, size_t kernelY, size_t kernelX,
-        size_t strideY, size_t strideX, size_t padY, size_t padX, float * dst, size_t dstH, size_t dstW, SimdBool excludePad, SimdTensorFormatType format);
-
-    /*! @ingroup synet
-
         \fn void SimdSynetPoolingForwardMax(const float * src, size_t srcC, size_t srcH, size_t srcW, size_t kernelY, size_t kernelX, size_t strideY, size_t strideX, size_t padY, size_t padX, float * dst, size_t dstH, size_t dstW, SimdBool trans);
 
         \short This function is used for forward propagation of PoolingLayer (MaxPooling).
@@ -6244,7 +6217,7 @@ extern "C"
         \param [out] dst - a pointer to the output 32-bit float array. The size of the array must be equal to srcC*dstH*dstW.
         \param [in] dstH - an output height.
         \param [in] dstW - an output width.
-        \param [in] trans - a flag of transposed input and output data (::SimdFalse - NCHW order, ::SimdTrue - NHWC order).
+        \param [in] trans - a flag of transposed input and output data (::SimdFalse - CHW order, ::SimdTrue - HWC order).
     */
     SIMD_API void SimdSynetPoolingForwardMax(const float * src, size_t srcC, size_t srcH, size_t srcW, size_t kernelY, size_t kernelX, 
         size_t strideY, size_t strideX, size_t padY, size_t padX, float * dst, size_t dstH, size_t dstW, SimdBool trans);
