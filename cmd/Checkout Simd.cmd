@@ -11,6 +11,10 @@ pause
 if exist %ORIGIN_SRCDIR% (
   ..\src\3rd.git\Simd\prj\cmd\GetVersion.cmd %ORIGINDIR_FULLPATH%
   robocopy %ORIGIN_SRCDIR% %WORK_DIR% /MIR
+  
+  REM Clean up to avoid dirty submodule
   del %ORIGIN_SRCDIR%\SimdVersion.h
+  del %ORIGINDIR_FULLPATH%\prj\txt\FullVersion.txt
+  
   if not "%1"=="overwrite" pause
 )
